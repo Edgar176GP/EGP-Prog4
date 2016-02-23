@@ -1,0 +1,175 @@
+<html>
+
+<head>
+<title>
+Formulario
+</title>
+</head>
+
+<body>
+<center>
+<h1> "Formulario De Inscripcion"</h1></center>
+
+<form>
+<label>
+Nombre
+</label><br/>
+
+<input type="text" 
+name="nom"/>
+<br/>
+<br/>
+
+<form>
+<label>
+Apellido Paterno
+</label><br/>
+<input type="text" 
+name="apep"/>
+<br/>
+<br/>
+
+<form>
+<label>
+Apellido Materno
+</label><br/>
+<input type="text" 
+name="apem"/>
+<br/>
+<br/>
+
+
+
+
+<label>
+Edad
+</label></br>
+<select>
+<option></option>
+<option>20</option>
+<option>21</option>
+<option>22</option>
+<option>23</option>
+<option>24</option>
+<option>25</option>
+<option>26</option>
+<option>27</option>
+<option>28</option>
+<option>29</option>
+<option>30</option>
+
+</select></br></br>
+
+
+
+
+
+<label>
+Sexo
+</label></br>
+ <input name="Sexo" type="radio" value="Mas" />Masculino</br>
+ <input name="Sexo" type="radio" value="Fem" />Femenino</br></br>
+
+
+
+
+
+<label>
+Nacionalidad
+</label></br>
+<select>
+<option></option>
+<option>Mexicano </option>
+<option>Estadounidense</option>
+<option>Canadiense</option>
+<option>Romano</option>
+<option>Ruso</option>
+<option>Chileno</option>
+<option>Argentino</option>
+<option>Brazileño</option>
+<option>Cubano</option>
+<option>Colombiano</option>
+<option>Japones</option>
+
+</select></br></br>
+
+
+
+
+<label>
+Telefono
+</label><br/>
+
+<input type="text" 
+name="nom"/>
+<br/>
+<br/>
+
+<form>
+<label>
+e-Mail
+</label><br/>
+<input type="text" 
+name="apep"/>
+<br/>
+<br/>
+
+<form>
+<label>
+Domicilio
+</label><br/>
+<input type="text" 
+name="apem"/>
+<br/>
+<br/> 
+
+
+
+
+
+
+
+<label>
+Intereses
+</label></br>
+<input name="Musica" type="checkbox" />Musica</br>
+<input name="TV" type="checkbox"  />TV</br>
+<input name="Libros" type="checkbox" />Libros</br>
+<input name="Deportes" type="checkbox"  />Deportes</br>
+<input name="Tecnologias" type="checkbox"  />Tecnologias</br></br>
+
+
+
+
+
+
+
+
+<label>
+Ultimo Grado De Estudio
+</label></br>
+<input name="Ninguno" type="radio" value="rbipeliculas" />Ninguno</br>
+<input name="Primaria" type="radio" value="rbipeliculas" />Primaria</br>
+<input name="Secundaria" type="radio" value="rbipeliculas" />Secundaria</br>
+<input name="Bachillerato" type="radio" value="rbipeliculas" />Bachillerato</br>
+<input name="Licenciatura" type="radio" value="rbipeliculas" />Licenciatura</br>
+<input name="Maestria" type="radio" value="rbipeliculas" />Maestria</br>
+<input name="Doctorado" type="radio" value="rbipeliculas" />Doctorado</br>
+
+
+
+
+
+<label>
+Observaciones Personales
+</label></br>
+<textarea name="Observaciones" rows="10" cols="40"></textarea></br>
+
+<label>
+Dudas
+</br>
+<textarea name="Dudas" rows="10" cols="40"></textarea>
+
+</form>
+</body>
+</html>
